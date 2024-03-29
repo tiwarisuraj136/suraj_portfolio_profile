@@ -1,0 +1,148 @@
+import 'package:flutter/material.dart';
+import 'package:suraj_portfolio_profile/res/constants.dart';
+import 'package:suraj_portfolio_profile/res/size_helpers.dart';
+import 'package:suraj_portfolio_profile/views/responsive.dart';
+import 'package:url_launcher/url_launcher_string.dart';
+
+import 'social_icon.dart';
+
+class FooterContent extends StatelessWidget {
+  const FooterContent({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Responsive(
+        desktop: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Divider(
+              thickness: 0.1,
+              color: iconColor,
+            ),
+            const SizedBox(
+              height: 5,
+            ),
+            /*Text(
+              "© 2024 Suraj Tiwari. All rights reserved.",
+              style: normalText(15),
+            ),*/
+            const SizedBox(
+              height: 5,
+            ),
+            /*TextButton(
+                onPressed: () {
+                  launchUrlString(
+                      "https://github.com/Ankit180898/my_portfolio");
+                },
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      "View Source",
+                      style: normalText(15),
+                    ),
+                    const SizedBox(
+                      width: 5,
+                    ),
+                    SocialMediaIcon(
+                        icon: 'github.svg',
+                        height: displayHeight(context) * 0.02,
+                        width: displayWidth(context) * 0.02),
+                  ],
+                )),*/
+            const SizedBox(
+              height: 5,
+            ),
+          ],
+        ),
+        mobile: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Divider(
+              thickness: 0.1,
+              color: iconColor,
+            ),
+            const SizedBox(
+              height: 5,
+            ),
+           /* Text(
+              "© 2024 Suraj Tiwari. All rights reserved.",
+              style: normalText(10),
+            ),*/
+            const SizedBox(
+              height: 5,
+            ),
+           /* TextButton(
+                onPressed: () {
+                  launchUrlString(
+                      "https://github.com/Ankit180898/my_portfolio");
+                },
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      "View Source",
+                      style: normalText(10),
+                    ),
+                    const SizedBox(
+                      width: 5,
+                    ),
+                    SocialMediaIcon(
+                        icon: 'github.svg',
+                        height: displayHeight(context) * 0.02,
+                        width: displayWidth(context) * 0.02),
+                  ],
+                )),*/
+            const SizedBox(
+              height: 5,
+            ),
+          ],
+        ),
+        tablet: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Divider(
+              thickness: 0.1,
+              color: iconColor,
+            ),
+            const SizedBox(
+              height: 5,
+            ),
+            /*Text(
+              "© 2024 Suraj Tiwari. All rights reserved.",
+              style: normalText(15),
+            ),*/
+            const SizedBox(
+              height: 5,
+            ),
+            /*TextButton(
+                onPressed: () {
+                  launchUrlString(
+                      "https://github.com/Ankit180898/my_portfolio");
+                },
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      "View Source",
+                      style: normalText(15),
+                    ),
+                    const SizedBox(
+                      width: 5,
+                    ),
+                    SocialMediaIcon(
+                        icon: 'github.svg',
+                        height: displayHeight(context) * 0.015,
+                        width: displayWidth(context) * 0.015),
+                  ],
+                )),*/
+            const SizedBox(
+              height: 5,
+            ),
+          ],
+        ));
+  }
+}
