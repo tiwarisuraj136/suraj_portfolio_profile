@@ -19,20 +19,20 @@ class SocialMediaIconColumn extends StatelessWidget {
             onTap: () {
               openEmail(email: "tiwarisuraj136@gmail.com");
             },
-            icon: 'email2.svg',
+            icon: 'assets/email2.svg',
             height: displayHeight(context) * 0.035,
             width: displayWidth(context) * 0.035,
           ),
           const Spacer(),
           SocialMediaIcon(
-            icon: 'github.svg',
+            icon: 'assets/github.svg',
             onTap: () => launchUrlString("https://github.com/tiwarisuraj136"),
             height: displayHeight(context) * 0.030,
             width: displayWidth(context) * 0.030,
           ),
           const Spacer(),
           SocialMediaIcon(
-            icon: 'linkedln.svg',
+            icon: 'assets/linkedln.svg',
             onTap: () =>
                 launchUrlString("https://linkedin.com/in/suraj-tiwari-030747199"),
             height: displayHeight(context) * 0.030,
@@ -56,7 +56,7 @@ class SocialMediaIconColumn extends StatelessWidget {
             onTap: () {
               openEmail(email: "tiwarisuraj136@gmail.com");
             },
-            icon: 'email2.svg',
+            icon: 'assets/email2.svg',
             height: displayHeight(context) * 0.030,
             width: displayWidth(context) * 0.030,
           ),
@@ -64,7 +64,7 @@ class SocialMediaIconColumn extends StatelessWidget {
             width: 16,
           ),
           SocialMediaIcon(
-            icon: 'github.svg',
+            icon: 'assets/github.svg',
             onTap: () => launchUrlString("https://github.com/tiwarisuraj136"),
             height: displayHeight(context) * 0.025,
             width: displayWidth(context) * 0.025,
@@ -73,7 +73,7 @@ class SocialMediaIconColumn extends StatelessWidget {
             width: 16,
           ),
           SocialMediaIcon(
-            icon: 'linkedln.svg',
+            icon: 'assets/linkedln.svg',
             onTap: () =>
                 launchUrlString("https://linkedin.com/in/suraj-tiwari-030747199"),
             height: displayHeight(context) * 0.025,
@@ -98,7 +98,7 @@ class SocialMediaIconColumn extends StatelessWidget {
             onTap: () {
               openEmail(email: "tiwarisuraj136@gmail.com");
             },
-            icon: 'email2.svg',
+            icon: 'assets/email2.svg',
             height: displayHeight(context) * 0.030,
             width: displayWidth(context) * 0.030,
           ),
@@ -106,7 +106,7 @@ class SocialMediaIconColumn extends StatelessWidget {
             width: 16,
           ),
           SocialMediaIcon(
-            icon: 'github.svg',
+            icon: 'assets/github.svg',
             onTap: () => launchUrlString("https://github.com/tiwarisuraj136"),
             height: displayHeight(context) * 0.025,
             width: displayWidth(context) * 0.025,
@@ -115,7 +115,7 @@ class SocialMediaIconColumn extends StatelessWidget {
             width: 16,
           ),
           SocialMediaIcon(
-            icon: 'linkedln.svg',
+            icon: 'assets/linkedln.svg',
             onTap: () =>
                 launchUrlString("https://linkedin.com/in/suraj-tiwari-030747199"),
             height: displayHeight(context) * 0.025,
